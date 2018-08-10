@@ -1,0 +1,423 @@
+    /* unit */
+
+ul.guayaquil_tab, li.guayaquil_tab {border:0; margin:0; padding:0; list-style:none;}
+ul.guayaquil_tab{
+    border-bottom:solid 1px #DEDEDE;
+    height:29px;
+    padding-left:0px;
+}
+li.guayaquil_tab, li.guayaquil_activetab{
+    float:left;
+    margin-right:2px;
+}
+.guayaquil_tab a:link, .guayaquil_tab a:visited{
+    display:block;
+    float:left;
+    height:30px;
+    background:url(./images/tab-round.png) no-repeat right -30px;
+    color:#666;
+    font-weight:bold;
+    text-decoration:none;
+    padding-right:5px;
+}
+.guayaquil_tab a span{
+    display:block;
+    float:left;
+    height:30px;
+    background:url(./images/tab-round.png) no-repeat left -30px;
+    padding-left:5px;
+    line-height:30px;
+    cursor:pointer
+}
+.guayaquil_tab a:hover{
+    background:url(./images/tab-round.png) no-repeat right -60px;
+}
+.guayaquil_tab a:hover span{
+    background:url('./images/tab-round.png') no-repeat left -60px;
+}
+.guayaquil_activetab a:link, .guayaquil_activetab a:visited, .guayaquil_activetab a:visited, .guayaquil_activetab a:hover{
+    background:url('./images/tab-round.png') no-repeat right 0;
+}
+.guayaquil_activetab a span, .guayaquil_activetab a:hover span{
+    background:url('./images/tab-round.png') no-repeat left 0;
+}
+
+div.guayaquil_floatunitlist_150, div.guayaquil_floatunitlist_175, div.guayaquil_floatunitlist_200, div.guayaquil_floatunitlist_225, div.guayaquil_floatunitlist_250, .inline_block {
+	display:-moz-inline-stack; /* for FF2*/
+	display:inline-block; /* normal browsers */
+	zoom:1; /* for IE (hasLayout true) */
+	*display:inline; /* for IE */
+}
+
+div.guayaquil_floatunitlist_box {
+	padding:2px;
+	cursor:pointer;
+	overflow:hidden;
+	background: none;
+}
+div.guayaquil_floatunitlist_box_hover {
+	color: white;
+	background: #006FA4 !important;
+}
+
+div.guayaquil_floatunitlist_150 {
+	width:164px;
+	height:204px;
+}
+
+div.guayaquil_floatunitlist_175 {
+	width:193px;
+	height:229px;
+}
+
+div.guayaquil_floatunitlist_200 {
+	width:214px;
+	height:254px;
+}
+
+div.guayaquil_floatunitlist_225 {
+	width:239px;
+	height:279px;
+}
+
+div.guayaquil_floatunitlist_250 {
+	width:264px;
+	height:304px;
+}
+
+div.guayaquil_floatunitlist_150 div, div.guayaquil_floatunitlist_175 div, div.guayaquil_floatunitlist_200 div, div.guayaquil_floatunitlist_225 div, div.guayaquil_floatunitlist_250 div {
+	height:100%;
+}
+
+div.guayaquil_floatunitlist_150 div table, div.guayaquil_floatunitlist_175 div table, div.guayaquil_floatunitlist_200 div table, div.guayaquil_floatunitlist_225 div table, div.guayaquil_floatunitlist_250 div table {
+	width:100%;
+	height:100%;
+	background:white;
+}
+
+.guayaquil_floatunitlist_image_150{
+	height:150px;
+}
+
+.guayaquil_floatunitlist_image_175{
+	height:175px;
+}
+
+.guayaquil_floatunitlist_image_200{
+	height:200px;
+}
+
+.guayaquil_floatunitlist_image_225{
+	height:225px;
+}
+
+.guayaquil_floatunitlist_image_250{
+	height:250px;
+}
+
+div.guayaquil_categoryfloatbox {
+	clear:right;
+	float:right;
+	width:300px;
+}
+
+.guayaquil_categoryitem_selected {
+	background: #006FA4;
+	color:white;
+	padding:5px;
+}
+
+div.guayaquil_categoryitem_selected a, div.guayaquil_categoryitem_selected a:hover {
+	color:white;
+}
+
+.guayaquil_categoryitem {
+	padding:5px;
+}
+
+/* Catalogs */
+
+div.guayaquil_floatcatalog{
+	float:left;
+	padding:5px;
+}
+
+div.guayaquil_floatcatalog div{
+	padding:2px;
+}
+
+div.guayaquil_floatcatalog div table{
+	background:white;
+}
+
+table.guayaquil_tablecatalog {
+	width:90%;
+	border-collapse: collapse;
+}
+
+table.guayaquil_tablecatalog tbody tr td{
+	padding:2px;
+	height: 42px;
+}
+
+table.guayaquil_tablecatalog tbody tr td a:hover{
+	color:white;
+}
+
+table.guayaquil_tablecatalog tbody tr th{
+	background:#006FA4;
+	color:white;
+	font-weight:bold;
+	padding:5px;
+	margin:0px;
+}
+
+.guayaquil_SelectedRow {
+	font-weight:bold;
+}
+
+/* Catalog */
+
+.guayaquil_catalogicon {
+	clear:right;
+	float:right;
+	width:176px;
+}
+
+.g_input_error, .g_input {
+	padding:2px;
+	display:-moz-inline-stack; /* for FF2*/
+	display:inline-block; /* normal browsers */
+	zoom:1; /* for IE (hasLayout true) */
+	*display:inline; /* for IE */
+}
+
+.g_input_error {
+	/*background:red;*/
+    border: 1px solid red;
+}
+
+/* Details */
+
+.g_row_hided {
+	display:none;
+}
+
+tr.g_replacementRow {
+	font-size: 90%;
+	background:#EEEEEE;
+}
+
+/* Common */
+
+tr.over {
+	color: white;
+	background: #006FA4;
+}
+
+tr.over a, tr.over a:hover, tr.over a:visited {
+	color:white;
+}
+
+table.guayaquil_table {
+	border-collapse: collapse;
+}
+
+table.guayaquil_table tbody tr td{
+	padding:2px;
+}
+
+table.guayaquil_table tbody tr th{
+	background:#006FA4;
+	color:white;
+	font-weight:bold;
+	padding:5px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.block_header {
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:1.5em;
+	font-weight:bold;
+	margin:0 0 10px;
+	padding-left:0;
+	text-align:left;
+}
+
+div.g_highlight_over {
+	color: white;
+	background: #006FA4;
+}
+
+tr.g_highlight_over, tr.g_highlight_lock {
+	color: white;
+	background: #006FA4;
+}
+
+div.g_highlight_glow {
+	color: white;
+	background: #A40000;
+}
+
+.guayaquil_catalogicon {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+}
+.xtop, .xbottom {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+display:block;
+font-size:1px;
+}
+.xb1, .xb2, .xb3, .xb4 {
+display:block;
+overflow:hidden;
+}
+.xb1, .xb2, .xb3 {
+height:1px;
+}
+.xb2, .xb3, .xb4 {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFFFFF none repeat scroll 0 0;
+border-left:1px solid #CCCCCC;
+border-right:1px solid #CCCCCC;
+}
+.xb1 {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#CCCCCC none repeat scroll 0 0;
+margin:0 5px;
+}
+.xb2 {
+border-width:0 2px;
+margin:0 3px;
+}
+.xb3 {
+margin:0 2px;
+}
+.xb4 {
+height:2px;
+margin:0 1px;
+}
+.xboxcontent {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#FFFFFF none repeat scroll 0 0;
+border-color:#CCCCCC;
+border-style:solid;
+border-width:0 1px;
+display:block;
+padding:5px 10px;
+}
+
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #111;
+	background-color: #eee;
+	padding: 5px;
+	opacity: 0.85;
+}
+
+#tooltip h3, #tooltip div { margin: 0; }
+
+.guayaquil_zoom {
+    float: left;
+}
+
+.guayaquil_floatunitlist_box > div.guayaquil_unit_icons > div.guayaquil_zoom, #viewport > span.guayaquil_zoom, .gdImageCol > div.guayaquil_unit_icons {
+    display:none;
+}
+
+.guayaquil_floatunitlist_box:hover > div.guayaquil_unit_icons > div.guayaquil_zoom, #viewport:hover > span.guayaquil_zoom, .gdImageCol:hover > div.guayaquil_unit_icons {
+    display:block;
+    margin: 5px;
+}
+
+#tooltip {
+    z-index: 9999;
+}
+
+.g_filter_row, .g_filter_row a {
+    color: #ff8c00;
+}
+
+.g_filter_row td[name='c_pnc'] {
+    padding-left: 27px;
+    background:url(./details/images/filter.gif) no-repeat 2px center;
+}
+
+.g_filter_scroller {
+    overflow: auto;
+    height: 15em;
+    width:600px;
+}
+
+.guayaquil_unit_filter {
+    float: left;
+}
+
+.guayaquil_unit_icons {
+    height:32px !important;
+    position: absolute;
+    float:left;
+    z-index: 50;
+    padding: 5px;
+    cursor: pointer;
+}
+
+a.g_filter_unit {
+    color: #FF8C00;
+}
+
+div.g_filter_label {
+    padding-bottom: 10px;
+}
+
+div.g_filter_note {
+    padding-left: 23px;
+}
+
+span.g_filter_name {
+    font-weight: bold;
+}
+
+div.g_catalog_float_box {
+    float: left;
+    width:95px;
+    height:90px;
+    text-align: center;
+}
+
+div.g_catalog_float_icon {
+    height: 45px;
+}
+
+div.g_catalog_float_name {
+    overflow: hidden;
+    height: 50px;
+}
+
+.gdCategory h3 { padding: 25px 0 10px;}
+.gdImage { margin: 2px; background: white; }
+.gdUnit .gdImageCol { width: 25%; }
+.gdUnit tr td { padding-bottom: 25px;}
+.gdUnit:hover {background: #eee; }
+.gdNoImage { background:  url(images/noimage.png) center no-repeat #fff;}
+.gVehicleLink, .gQuickGroupsLink { float:right; padding: 10px; background: #006FA4; color: white;}
+.gVehicleLink a, .gQuickGroupsLink a {color: white;}
+.guayaquil_categoryfloatbox .gQuickGroupsLink {float: none !important;}
+.g_addgr_collapsed {display: none;}
+
+.g_nonstandarddetail, .g_nonstandarddetail a {
+    color: #ff6600;
+}

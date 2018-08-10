@@ -1,0 +1,19 @@
+{
+    "name": "laximo/guayaquillib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonov Aleksandr",
+            "email": "antonov.a@laximo.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	    "php": ">=5.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+#viewport .g_highlight_over {
+	border: 2px solid #ee5500 !important;
+	background:none;
+}
+
+#viewport .g_highlight_lock {
+	border: 2px solid #ee5500 !important;
+	background:none;
+}
+
+#viewport .g_highlight {
+	border: 2px solid transparent;
+	background:none;
+	cursor:pointer;
+}
+
+#g_container {
+position: relative;
+} 
+
+#g_container #viewtable {
+    position:absolute;
+    top:0;
+    right:0;
+    width: 50% !important;
+}
+
+/*
+.guayaquil_unit_note {
+    display: none;
+}
+*/

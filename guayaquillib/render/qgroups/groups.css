@@ -1,0 +1,83 @@
+
+.qgContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.qgContainer li {
+    list-style-type: none;
+}
+
+/* indent for all tree children excepts root */
+.qgNode {
+    background-image : url(img/i.gif);
+    background-position : top left;
+    background-repeat : repeat-y;
+    margin-left: 18px;
+    zoom: 1;
+}
+
+.qgIsRoot {
+    margin-left: 0;
+}
+
+/* left vertical line (grid) for all nodes */
+.qgIsLast {
+    background-image: url(img/i_half.gif);
+    background-repeat : no-repeat;
+}
+
+.qgExpandOpen .qgExpand {
+    background-image: url(img/expand_minus.gif);
+}
+
+/* closed is higher priority than open */
+.qgExpandClosed .qgExpand {
+    background-image: url(img/expand_plus.gif);
+}
+
+/* highest priority */
+.qgExpandLeaf .qgExpand {
+    background-image: url(img/expand_leaf.gif);
+}
+
+.qgContent {
+    min-height: 18px;
+    margin-left:18px;
+}
+
+.qgContent {
+    height: 18px;
+}
+
+.qgExpand {
+    width: 18px;
+    height: 18px;
+    float: left;
+}
+
+
+.qgExpandLoading   {
+    width: 18px;
+    height: 18px;
+    float: left;
+    background-image: url(img/expand_loading.gif);
+}
+
+.qgExpandOpen .qgContainer {
+	display: block;
+}
+
+.qgExpandClosed .qgContainer {
+	display: none;
+}
+
+.qgExpandOpen .qgExpand, .qgExpandClosed .qgExpand {
+	cursor: pointer;
+}
+.qgExpandLeaf .qgExpand {
+	cursor: auto;
+}
+
+
+
