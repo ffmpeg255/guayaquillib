@@ -66,7 +66,7 @@ function g_getHint() {
 
 	return str;
 }
-
+/*
 jQuery(document).ready(function($){
 
     jQuery('tr.g_highlight a.follow').colorbox({
@@ -79,4 +79,4 @@ jQuery(document).ready(function($){
         'innerWidth' : '1000px',
         'maxHeight' : '98%'
     })
-});
+});*/
