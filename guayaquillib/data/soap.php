@@ -50,10 +50,10 @@ class GuayaquilSoapWrapper
 
         if ($laximoOem) {
             $options['uri'] = 'http://WebCatalog.Kito.ec';
-            $options['location'] = ($this->authMethod == 'certificate' ? 'https' : 'http').'://ws.avtosoft.net/ec.Kito.WebCatalog/services/Catalog.CatalogHttpSoap11Endpoint/';
+            $options['location'] = ($this->authMethod == 'certificate' ? 'https' : 'http').'://oem-api.yqservice.eu/ec.Kito.WebCatalog/services/Catalog.CatalogHttpSoap11Endpoint/';
         } else {
             $options['uri'] = 'http://Aftermarket.Kito.ec';
-            $options['location'] = ($this->authMethod == 'certificate' ? 'https' : 'http').'://aws.laximo.net/ec.Kito.Aftermarket/services/Catalog.CatalogHttpSoap11Endpoint/';
+            $options['location'] = ($this->authMethod == 'certificate' ? 'https' : 'http').'://am-api.yqservice.eu/ec.Kito.Aftermarket/services/Catalog.CatalogHttpSoap11Endpoint/';
         }
 
         if ($this->authMethod == 'certificate') {
